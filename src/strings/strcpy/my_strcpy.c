@@ -1,7 +1,7 @@
 #include "../../include/my_strcpy.h"
 
 // Custom implementation of the standard strcmp function
-void my_strcpy(char *src, char *dest){
+void my_strcpy(char *dest, char *src){
   int i = 0;
   
   // Loop indefinitely until the null terminator is encountered
