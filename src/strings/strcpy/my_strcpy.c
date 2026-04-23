@@ -10,7 +10,7 @@ void my_strcpy(char *src, char *dest){
     dest[i] = src[i];
     
     // If the copied character is the null terminator, break out of the loop
-    if(dest[i] == '\0'){
+    if(src[i] == '\0'){
       break;
     }
     
