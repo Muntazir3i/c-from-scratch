@@ -1,6 +1,6 @@
 #include "../../include/my_strcpy.h"
 
-// Custom implementation of the standard strcmp function
+// Custom implementation of the standard strcpy function
 void my_strcpy(char *src, char *dest){
   int i = 0;
   
